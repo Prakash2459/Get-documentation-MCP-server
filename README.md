@@ -31,11 +31,24 @@ result = await get_docs("memory", "langchain")
 - `SERPER_API_KEY`: API key for Google Serper search
 
 ## Installation
-1. Install dependencies:
+1. Create a uv virtual environment:
+   ```bash
+   uv venv .venv
+   ```
+2. Activate the virtual environment:
+   - On Windows:
+     ```powershell
+     .venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```bash
+     source .venv/bin/activate
+     ```
+3. Install dependencies:
    ```bash
    uv sync
    ```
-2. Set up `.env` file with your Serper API key.
+4. Set up `.env` file with your Serper API key.
 
 ## MCP Server Configuration Example
 
