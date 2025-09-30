@@ -37,5 +37,25 @@ result = await get_docs("memory", "langchain")
    ```
 2. Set up `.env` file with your Serper API key.
 
+## MCP Server Configuration Example
+
+Add the following to your MCP configuration (e.g., mcp.json):
+
+```jsonc
+{
+   "servers": {
+      "documentation": {
+         "command": "uv",
+         "args": [
+            "--directory",
+            "D:/projects/mcp/documentation",
+            "run",
+            "main.py"
+         ]
+      }
+   }
+}
+```
+
 ## License
 MIT
