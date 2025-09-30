@@ -1,0 +1,13 @@
+{
+    "servers": {
+        "documentation": {
+            "command": "uv",
+            "args": [
+                "--directory",
+                "D:/projects/mcp/documentation",
+                "run",
+                "main.py"
+            ]
+        }
+    }
+}
