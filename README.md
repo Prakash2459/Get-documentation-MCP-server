@@ -1,4 +1,4 @@
-# MCP Documentation Server
+# MCP Web-Scraped Documentation Server
 
 A fast MCP (Model Context Protocol) server for searching and retrieving documentation from LangChain, LlamaIndex, and OpenAI official sources via a unified API.
 
